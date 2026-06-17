@@ -1,0 +1,11 @@
+industry,funding_amount,team_size,revenue,market_size,founder_experience,business_model,competition_level,customer_growth,success,profile_score,profile_category,recommended_funding_stage,investment_requirement,investor_interest
+6,500000,25,1200000,50000000,6,0,2,35,1,100,Excellent Startup Profile,Seed Funding,300000,High
+5,150000,10,250000,20000000,2,1,0,12,0,0,Weak Startup Profile,Angel Investment,150000,Low
+8,900000,40,2500000,80000000,8,3,2,48,1,100,Excellent Startup Profile,Series A,1000000,High
+4,300000,18,700000,60000000,4,2,0,22,1,20,Weak Startup Profile,Seed Funding,300000,Low
+1,80000,7,100000,15000000,1,1,1,8,0,0,Weak Startup Profile,Bootstrapping,50000,Low
+0,1200000,50,3200000,100000000,10,3,2,55,1,100,Excellent Startup Profile,Venture Capital,2500000,High
+9,450000,22,900000,45000000,5,0,2,30,1,40,Average Startup Profile,Seed Funding,300000,Low
+7,200000,15,350000,30000000,3,1,0,15,0,0,Weak Startup Profile,Angel Investment,150000,Low
+3,750000,35,2100000,90000000,7,3,1,45,1,100,Excellent Startup Profile,Series A,1000000,High
+2,650000,28,1600000,70000000,6,0,2,38,1,100,Excellent Startup Profile,Seed Funding,300000,High

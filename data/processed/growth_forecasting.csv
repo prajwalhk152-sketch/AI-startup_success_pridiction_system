@@ -1,0 +1,11 @@
+industry,funding_amount,team_size,revenue,market_size,founder_experience,business_model,competition_level,customer_growth,success,profile_score,profile_category,recommended_funding_stage,investment_requirement,investor_interest,market_score,market_potential,competitor_count,competition_category,competitive_advantage_score,competitive_advantage,growth_score,growth_forecast,projected_revenue_growth_percent,expected_user_growth_percent
+6,500000,25,1200000,50000000,6,0,2,35,1,100,Excellent Startup Profile,Seed Funding,300000,High,70,High,12,Medium Competition,70,Good Competitive Advantage,75,High Growth,35,40
+5,150000,10,250000,20000000,2,1,0,12,0,0,Weak Startup Profile,Angel Investment,150000,Low,35,Low,25,High Competition,25,Weak Competitive Advantage,25,Low Growth,10,15
+8,900000,40,2500000,80000000,8,3,2,48,1,100,Excellent Startup Profile,Series A,1000000,High,95,Very High,12,Medium Competition,90,Strong Competitive Advantage,100,Very High Growth,45,50
+4,300000,18,700000,60000000,4,2,0,22,1,20,Weak Startup Profile,Seed Funding,300000,Low,45,Medium,25,High Competition,50,Average Competitive Advantage,40,Low Growth,10,15
+1,80000,7,100000,15000000,1,1,1,8,0,0,Weak Startup Profile,Bootstrapping,50000,Low,45,Medium,5,Low Competition,45,Average Competitive Advantage,25,Low Growth,10,15
+0,1200000,50,3200000,100000000,10,3,2,55,1,100,Excellent Startup Profile,Venture Capital,2500000,High,95,Very High,12,Medium Competition,90,Strong Competitive Advantage,100,Very High Growth,45,50
+9,450000,22,900000,45000000,5,0,2,30,1,40,Average Startup Profile,Seed Funding,300000,Low,50,Medium,12,Medium Competition,60,Good Competitive Advantage,55,Moderate Growth,22,28
+7,200000,15,350000,30000000,3,1,0,15,0,0,Weak Startup Profile,Angel Investment,150000,Low,35,Low,25,High Competition,25,Weak Competitive Advantage,35,Low Growth,10,15
+3,750000,35,2100000,90000000,7,3,1,45,1,100,Excellent Startup Profile,Series A,1000000,High,100,Very High,5,Low Competition,100,Strong Competitive Advantage,90,Very High Growth,45,50
+2,650000,28,1600000,70000000,6,0,2,38,1,100,Excellent Startup Profile,Seed Funding,300000,High,70,High,12,Medium Competition,80,Strong Competitive Advantage,80,High Growth,35,40

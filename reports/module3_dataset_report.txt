@@ -1,0 +1,10 @@
+Module 3 Completed
+
+Dataset Records : 10
+Features : 11
+
+Target Variable:
+success
+
+Successful Startups : 7
+Failed Startups : 3

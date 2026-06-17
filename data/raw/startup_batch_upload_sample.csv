@@ -1,0 +1,21 @@
+startup_name,startup_description,industry,business_model,funding_amount,team_size,revenue,market_size,founder_experience,competition_level,customer_growth
+FinPulse AI,AI finance dashboard for small businesses to track cash flow and loan readiness,FinTech,B2B (Business-to-Business),420000,18,310000,85000000,5,Medium,32
+CropGuard Vision,Phone based crop disease detection and treatment advice for farmers,AgriTech,B2C (Business-to-Consumer),180000,10,90000,56000000,3,Medium,24
+MediQueue,Hospital appointment and patient follow up platform for clinics,HealthTech,B2B (Business-to-Business),650000,22,520000,90000000,6,Low,29
+LearnLoop,Personalized exam practice app for college students,EdTech,B2C (Business-to-Consumer),120000,8,75000,62000000,2,High,21
+SecureNest,Cloud security monitoring tool for startup engineering teams,Cybersecurity,SaaS (Software as a Service),780000,24,610000,82000000,7,High,34
+GreenGrid Solar,Solar energy performance analytics for commercial buildings,CleanTech,B2B (Business-to-Business),950000,26,420000,78000000,5,Medium,28
+ShopBridge,Local seller marketplace connecting neighborhood stores with online shoppers,E-Commerce,Marketplace (Buyer-Seller Platform),300000,16,260000,70000000,4,High,22
+KitchenKart,Healthy meal subscription and grocery planning app for urban families,FoodTech,B2C (Business-to-Consumer),140000,9,85000,52000000,2,High,18
+RoutePilot,Route optimization software for delivery fleets and warehouses,Logistics,B2B (Business-to-Business),880000,28,690000,76000000,6,Medium,25
+GeneMap Labs,Genomics testing workflow platform for research labs,BioTech,B2B (Business-to-Business),1500000,34,780000,88000000,8,Medium,27
+QuantumSense,Industrial sensor platform using deeptech hardware for factories,DeepTech,B2B (Business-to-Business),1100000,30,450000,74000000,7,Medium,24
+FlowCRM,Subscription CRM automation tool for sales teams,SaaS,SaaS (Software as a Service),520000,20,480000,92000000,5,High,31
+RentWise,Property rental marketplace for tenants and brokers,PropTech,Marketplace (Buyer-Seller Platform),260000,14,170000,68000000,4,Medium,20
+LegalDraft AI,Contract drafting and compliance assistant for small law firms,LegalTech,SaaS (Software as a Service),240000,12,130000,46000000,3,Medium,19
+HireSignal,AI screening and payroll workflow platform for HR teams,HRTech,SaaS (Software as a Service),360000,17,220000,54000000,4,High,23
+PolicyBridge,Insurance claim processing platform for brokers and carriers,InsurTech,B2B (Business-to-Business),620000,21,390000,64000000,5,Medium,22
+WealthPath,Personal portfolio tracking app for young investors,WealthTech,B2C (Business-to-Consumer),210000,11,145000,60000000,3,High,24
+PlayForge,Mobile gaming studio with community driven game testing,Gaming,B2C (Business-to-Consumer),330000,19,280000,72000000,4,High,26
+CreatorPay,Monetization platform for creators selling memberships and digital products,Creator Economy,Marketplace (Buyer-Seller Platform),190000,10,125000,48000000,2,High,20
+ChargeFleet,EV charging management system for fleet operators,EV,B2B (Business-to-Business),1250000,32,570000,87000000,6,Medium,33
