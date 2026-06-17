@@ -4,6 +4,8 @@ __pycache__/
 
 node_modules/
 dist/
+!ai-startup-frontend/dist/
+!ai-startup-frontend/dist/**
 .vite/
 
 .env
