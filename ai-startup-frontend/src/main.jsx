@@ -48,7 +48,7 @@ import "./startup-flow.css";
 const configuredApiBase = import.meta.env.VITE_API_BASE_URL;
 const API_BASE = configuredApiBase
   ? configuredApiBase.replace(/\/$/, "").replace(/^(?!https?:\/\/)/, "https://")
-  : "http://127.0.0.1:5000";
+  : window.location.origin;
 
 const industryCatalog = [
   { label: "AI", value: 0, model_value: 0, market: 95000000, growth: 35, model: "SaaS", competition: "High", capital: "Medium", trend: "Fast adoption, strong enterprise demand, and intense competition." },

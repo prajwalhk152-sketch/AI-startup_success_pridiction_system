@@ -1,4 +1,4 @@
-from flask import Flask, request, jsonify
+from flask import Flask, request, jsonify, send_from_directory
 import os
 import pandas as pd
 import sqlite3
@@ -11,6 +11,7 @@ from sklearn.model_selection import train_test_split
 ROOT_DIR = Path(__file__).resolve().parents[1]
 DATABASE_PATH = ROOT_DIR / "database" / "startups.db"
 MODEL_DIR = ROOT_DIR / "models"
+FRONTEND_DIST_DIR = ROOT_DIR / "ai-startup-frontend" / "dist"
 
 conn = sqlite3.connect(DATABASE_PATH)
 
@@ -485,6 +486,18 @@ def find_waiting_company(waiting_id):
 
 @app.route("/")
 def home():
+    if (FRONTEND_DIST_DIR / "index.html").exists():
+        return send_from_directory(FRONTEND_DIST_DIR, "index.html")
+
+    return jsonify({
+        "project": "AI Startup Success Prediction System",
+        "status": "Running Successfully",
+        "frontend": "Build the frontend with `npm run build` inside ai-startup-frontend."
+    })
+
+
+@app.route("/health")
+def health():
     return jsonify({
         "project": "AI Startup Success Prediction System",
         "status": "Running Successfully"
@@ -1140,6 +1153,18 @@ def summary():
     }
 
     return jsonify(result)
+
+
+@app.route("/<path:path>")
+def serve_frontend(path):
+    if not (FRONTEND_DIST_DIR / "index.html").exists():
+        return jsonify({"error": "Frontend build not found"}), 404
+
+    requested_path = FRONTEND_DIST_DIR / path
+    if requested_path.exists() and requested_path.is_file():
+        return send_from_directory(FRONTEND_DIST_DIR, path)
+
+    return send_from_directory(FRONTEND_DIST_DIR, "index.html")
 
 # --------------------------------------------------
 # Run Application
